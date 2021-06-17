@@ -1,0 +1,256 @@
+
+
+@import 'utilities.css';
+
+:root{
+    --primary: #3DCFD3;
+    --dark: black;
+    --pure: white;
+    --ternery: grey;
+    --light:#F2F2F2;
+    --secondary: #070606;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+  
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+   
+}
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+
+header nav .left a:hover{
+      color: var(--primary);
+      transition: 0.5s;
+}
+
+header nav {
+    padding: 2rem 0;
+    background-color: var(--dark);
+}
+
+header nav .branding{
+    margin-right: 3rem;
+}
+
+
+.hero .left img{
+    width: 300px;
+    height: 800px;
+
+}
+
+.hero{
+    padding:3rem 0;
+}
+
+
+.hero .right{
+    margin-left: 5rem;
+    color: var(--pure);
+    margin-top:-7rem;
+}
+
+.hero .right h3{
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+
+}
+
+.hero .right h1{
+    font-size:4rem;
+    font-weight:50;
+    line-height:1.2;
+    margin-bottom: 2rem;
+
+}
+
+.hero .right h1 span{
+    color: var(--primary);
+}
+
+.hero .right p{
+    line-height:1.9;
+    margin-bottom:2rem;
+}
+
+.btn-secondary{
+    background:transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-secondary:hover{
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.section-heading{
+    color: var(--light);
+    text-align: center;
+    
+    margin-bottom: 3rem;
+    line-height: 0.5;
+}
+
+.section-heading span{
+    color: var(--primary);
+}
+
+.section-heading + p{
+    font-family: 'lato' , sans-serif;
+}
+
+section.ABOUT .card-wrapper {
+    display: grid inline-grid;
+    grid-template-columns: 1fr; 
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+    padding: 10px;
+    text-align: center;
+}
+
+section.ABOUT{
+    background: var(--dark);
+}
+
+section.ABOUT .card-wrapper .card{
+    background: var(--pure);
+    padding: 3rem 2rem;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.2;
+    font-family:'lato', sans-serif;
+    
+  
+}
+
+.card img{
+    max-width: 30%;
+    height: auto;
+    
+}
+
+section.ABOUT .card-wrapper .card:hover{
+    background: var(--dark);
+    transition: 0.3s ease;
+    
+}
+
+section.ABOUT .card-wrapper .card:hover h2, section.ABOUT .card-wrapper .card:hover p {
+     color: var(--pure);
+     transition: 0.3s ease;
+}
+
+
+
+nav .left1 a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+
+nav .left1 a:hover{
+      color: var(--primary);
+      transition: 0.5s;
+}
+
+nav{
+    background-color: var(--dark);
+    width: 100%;
+}
+
+nav .branding1{
+    margin-right: 3rem;
+}
+
+
+
+nav .left2 a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+
+nav .left2 a:hover{
+      color: var(--primary);
+      transition: 0.5s;
+}
+
+nav {
+    padding: 2rem 0;
+    
+}
+
+nav .branding2{
+    margin-right: 3rem;
+}
+
+.env{
+    text-align:center;
+}
+
+.container1 span{
+    color: var(--primary);
+    text-align: center;
+
+}
+
+
+.section-heading {
+    margin-top: -30px;
+    text-align: center; 
+}
+
+
+nav .left3 a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+
+nav .left3 a:hover{
+      color: var(--primary);
+      transition: 0.5s;
+}
+
+nav{
+    background-color: var(--dark);
+    width: 100%;
+}
+
+nav .branding3{
+    margin-right: 3rem;
+}
