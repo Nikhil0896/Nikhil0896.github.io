@@ -99,6 +99,7 @@ header nav .branding{
 .hero .right p{
     line-height:1.9;
     margin-bottom:2rem;
+    text-align: justify;
 }
 
 .btn-secondary{
