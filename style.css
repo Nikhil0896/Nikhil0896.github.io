@@ -29,6 +29,7 @@ body{
 
 header{
     background: var(--dark);
+    width: 100%;
      
 }
 
