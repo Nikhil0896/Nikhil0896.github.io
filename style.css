@@ -107,7 +107,7 @@ header nav .branding{
 .hero .right p{
     line-height:1.9;
     margin-bottom:2rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .btn-secondary{
@@ -242,7 +242,19 @@ nav .branding2{
 .hero .left img{
     width: 20rem;
     height: 20rem;
+   
+}
 
+.grid_me{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.mojo{
+    padding: 0;
+    margin: 0 auto;
 }
 
 /*  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     */
@@ -280,7 +292,7 @@ nav .branding3{
 {
     html{
 
-        font-size: 55%;
+        font-size: 45%;
 
     }
 
@@ -291,7 +303,7 @@ nav .branding3{
 {
     html
     {
-        font-size: 45%;
+        font-size: 30%;
     }
 
 }
