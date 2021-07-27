@@ -26,6 +26,20 @@ body{
 
 
 
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width :extend-to-zoom;
+    zoom :1.0;
+}
+
+
+
+
 header{
     background: var(--dark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
