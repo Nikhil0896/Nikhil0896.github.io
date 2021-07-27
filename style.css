@@ -61,11 +61,6 @@ header nav .branding{
 }
 
 
-.hero .left img{
-    width: 20rem;
-    height: 20rem;
-
-}
 
 .hero{
     padding:3rem 0;
@@ -242,6 +237,17 @@ nav .branding2{
 }
 
 
+
+/*  THIS SECTION OF PHOTO  */
+.hero .left img{
+    width: 20rem;
+    height: 20rem;
+
+}
+
+/*  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     */
+
+
 .section-heading {
     margin-top: -3rem;
     text-align: center; 
@@ -277,6 +283,7 @@ nav .branding3{
         font-size: 55%;
 
     }
+
 }
 
 
@@ -286,6 +293,7 @@ nav .branding3{
     {
         font-size: 45%;
     }
+
 }
 
 
