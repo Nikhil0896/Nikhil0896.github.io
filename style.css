@@ -233,11 +233,31 @@ nav .branding2{
     text-align:center;
 }
 
-.container1 span{
-    color: var(--primary);
+.container1 h1,span{
+    color: var(--secondary);
     text-align: center;
+    font-size:larger;
+    
+}
+
+.container1:hover{
+    background-color: var(--light);
+    transition: 0.5s;
 
 }
+
+.container1 h1{
+    margin-top: 5rem;
+}
+
+.guru a{
+    font-size: larger;
+}
+
+.contact{
+    font-size: larger;
+}
+
 
 
 
