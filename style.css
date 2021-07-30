@@ -1,5 +1,6 @@
 
 
+
 @import 'utilities.css';
 
 :root{
@@ -258,6 +259,20 @@ nav .branding2{
     padding: 0;
     margin: 0 auto;
 }
+
+.mojo h3{
+    margin-top: 10rem;
+    font-size: larger;
+}
+
+.mojo p{
+    font-size: larger;
+}
+
+.man a{
+    font-size: larger;
+}
+
 
 /*  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     */
 
